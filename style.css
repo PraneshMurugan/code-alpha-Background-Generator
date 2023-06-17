@@ -1,0 +1,50 @@
+#import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap'); 
+{
+    margin :0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    text-transform: uppercase;
+    background: linear-gradient(to right,purple,pink);
+}
+
+.container{
+    color:black;
+    position: absolute;
+    align-items: center;
+    padding:150px 260px;
+    text-align: center;
+}
+.container h1{
+    font-size: 60px;
+    line-height: 10px;
+    color:transparent;
+    padding: 55px;
+    -webkit-animation-stroke: 1px #fff;   
+    background: url("images/back.png");
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+}
+@keyframes back {
+    100%{
+        background-position: 2000px 0;
+    }
+    
+}
+.container h3{
+    font-size: 20px;
+    font-weight: 600;
+    color:transparent;
+    -webkit-animation-stroke: 100px #fff;   
+    background: url("images/back.png");
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+}
+
+
